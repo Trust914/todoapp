@@ -1,7 +1,7 @@
-import ButtonComponent from "../ButtonComponent";
+import ButtonComponent from "../../ButtonComponent";
 
 export default function AddToDoButton() {
-  const buttonProperties = {
+  const addButtonProps = {
     hasIcon: true,
     hasText: true,
     text: "Add task",
@@ -16,5 +16,5 @@ export default function AddToDoButton() {
     e.preventDefault();
   }
 
-  return <ButtonComponent properties={buttonProperties} />;
+  return <ButtonComponent properties={addButtonProps} />;
 }
